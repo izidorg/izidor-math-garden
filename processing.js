@@ -3,7 +3,7 @@ var output;
 
 
 async function loadModel() {
-    model = await tf.loadGraphModel('TFJS/MODEL.JSON');
+    model = await tf.loadGraphModel('TFJS/model.json');
 }
 
 function predictImage() {
