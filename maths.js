@@ -33,7 +33,7 @@ function checkAnswer() {
     } else {
         if (score != 0) {score--;}
         console.log(`Wrong. Score: ${score}`);
-        alert('Oops! Check your calculations and try writing the bumber neather mext time!');
+        alert('Oops! Check your calculations and try writing the bumber neather next time!');
         setTimeout(function() {
             backgroundImages.pop();
             document.body.style.backgroundImage = backgroundImages;
